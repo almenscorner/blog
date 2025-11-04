@@ -27,18 +27,18 @@ This is going to be a longer post so grab your coffee and let's get reading.
 
 **Table of contents**
 
-- [**Pre-requisites**](#prereqs)
-- [**Deploy Munki with Microsoft Endpoint Manager**](#deploy)
-- [**Create an Azure Blob Storage**](#createazureblob)
-- [**Prepare containers**](#preparecontainers)
-- [**Prepare package, scripts and profile**](#preparepsp)
-- [**Prepare repository structure**](#preparerepo)
-- [**Create a package**](#createpackage)
-- [**Upload repository to Azure Blob storage**](#uploadrepotoblob)
-- [**Manage repository with Git - Optional**](#managerepowithgit)
-- [**Deploy to macs**](#deploytomacs)
+- [**Pre-requisites**](#pre-requisites)
+- [**Deploy Munki with Microsoft Endpoint Manager**](#deploy-munki-with-microsoft-endpoint-manager)
+- [**Create an Azure Blob Storage**](#create-an-azure-blob-storage)
+- [**Prepare containers**](#prepare-containers)
+- [**Prepare package, scripts and profile**](#prepare-package-scripts-and-profile)
+- [**Prepare repository structure**](#prepare-repository-structure)
+- [**Create a package**](#create-a-package)
+- [**Upload repository to Azure Blob storage**](#upload-repository-to-azure-blob-storage)
+- [**Manage repository with Git - Optional**](#manage-repository-with-git)
+- [**Deploy to macs**](#deploy-to-macs)
 
-- [**End user experience**](#enduserexp)
+- [**End user experience**](#end-user-experience)
 
 ## What is Munki?
 

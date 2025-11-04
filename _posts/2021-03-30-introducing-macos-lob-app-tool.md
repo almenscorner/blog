@@ -45,7 +45,6 @@ Before using, keep in mind that this is an early version of this tool. Test **th
 - [Usage](#usage)
 - [In action](#in-action)
 - [Screenshots](#screenshots)
-- [App selection](#app-selection)
 - [Console output](#console-output)
 - [Azure blob](#azure-blob)
 - [MEM Shell script](#mem-shell-script)

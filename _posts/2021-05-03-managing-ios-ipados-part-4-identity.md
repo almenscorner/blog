@@ -24,14 +24,14 @@ You can find part one, two and three here:
 
 Table of contents
 
-- [**Managed Apple ID**](#managed-appleid)
-- [Federated authentication](#federated)
-- [Integrate ABM with Azure AD](#integrate-aadabm)
-- [Test authentication with a single Azure AD account](#test-auth)
-- [Test federated authentication](#test-federatedauth)
+- [**Managed Apple ID**](#managed-apple-id)
+- [Federated authentication](#federated-authentication)
+- [Integrate ABM with Azure AD](#integrate-abm-with-azure)
+- [Test authentication with a single Azure AD account](#test-authentication-with-a-single-azure-ad-account)
+- [Test federated authentication](#test-federated-authentication)
 
-- [**Single Sign-On App Extension**](#sso)
-- [Configure Azure AD Single Sign-On Extension](#configure-ssoext)
+- [**Single Sign-On App Extension**](#single-sign-on-app-extension)
+- [Configure Azure AD Single Sign-On Extension](#configure-azure-ad-single-sign-on-extension)
 
 - [**Wrapping up**](#wrapping-up)
 

@@ -25,11 +25,11 @@ This is part three of this series covering management of iOS/iPadOS, you can fin
 
 - [**Compliance Policies**](#compliance-policies)
 - [**Apps**](#apps)
-- [Integrating ABM/ASM apps with MEM](#integrating-ABM-ASM-apps-with-MEM)
+- [Integrating ABM/ASM apps with MEM](#integrating-abmasm-apps-with-mem)
 - [Add apps to Volume Purchase Program (VPP)](#add-apps-to-volume-purchase-program)
 - [Add apps via App Store](#add-apps-via-app-store)
 - [Line of Business apps](#line-of-business-apps)
-- [*Uploading to MEM*](#uploading-to-MEM)
+- [*Uploading to MEM*](#uploading-to-mem)
 - [*Custom Apps*](#custom-apps)
 
 - [**Wrapping up**](#wrapping-up)
@@ -182,7 +182,7 @@ Once above steps are completed you will see that Status is active.
    background: #FFFF00 !important;
     }
 
-## Add apps to Volume Purchase Program (VPP)
+## Add apps to Volume Purchase Program
 
 Now that we have successfully integrated ABM to MEM, the next step is to add apps. Follow the steps below to add apps and synchronize them to MEM.
 
