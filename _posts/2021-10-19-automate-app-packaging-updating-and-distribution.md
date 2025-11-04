@@ -53,7 +53,7 @@ What does the flow look like?
 
 One thing to note here is that each package is downloaded every time the pipeline runs.
 
-This workflow is tightly integrated with the [previous post](__GHOST_URL__/azure-devops-with-pipeline-for-azure-storage-munki-repo/) on setting up a pipeline in Azure DevOps to sync changes to the Munki repository to the Azure Storage Account. If you want to set this up, you should read that post first as we'll set this up within the same project.
+This workflow is tightly integrated with the [previous post]({{ site.baseurl }}azure-devops-with-pipeline-for-azure-storage-munki-repo/) on setting up a pipeline in Azure DevOps to sync changes to the Munki repository to the Azure Storage Account. If you want to set this up, you should read that post first as we'll set this up within the same project.
 
 ### Setting it all up
 

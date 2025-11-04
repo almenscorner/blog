@@ -31,7 +31,7 @@ This feature is in preview
 - 
 Federated Apple Business Manager
 
-- Since we are signin in with Managed Apple IDs, your ABM should be federated with Azure AD. I have previously written about this, you can [find this post here](__GHOST_URL__/managing-ios-ipados-part-4-identity/#federated).
+- Since we are signin in with Managed Apple IDs, your ABM should be federated with Azure AD. I have previously written about this, you can [find this post here]({{ site.baseurl }}managing-ios-ipados-part-4-identity/#federated).
 
 - 
 Supported devices (must have at least 32GB storage)

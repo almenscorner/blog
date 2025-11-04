@@ -16,7 +16,7 @@ excerpt: Some time ago I created a script to generate and update Munki manifests
 ---
 Wow, it has been some time since I last posted something on the blog. I've been focusing all my time on developing tools like [IntuneCD](https://github.com/almenscorner/intunecd) and [IntuneCD front end](https://github.com/almenscorner/intunecd-monitor) but, today, it's time for a new post!
 
-Some time ago I created a [script](__GHOST_URL__/munki-what-about-manifests/) to generate and update Munki manifests for macOS devices managed by Intune. It was based on Azure AD Device groups for adding included manifests and catalogs to device manifests.
+Some time ago I created a [script]({{ site.baseurl }}munki-what-about-manifests/) to generate and update Munki manifests for macOS devices managed by Intune. It was based on Azure AD Device groups for adding included manifests and catalogs to device manifests.
 
 Only being able to use device groups has it's drawbacks as you might be using user based groups to assign applications/configurations in a bigger scale. I have run into this myself using the manifest script in production over the last months.
 
