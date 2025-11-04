@@ -21,7 +21,7 @@ This is part three of this series covering management of iOS/iPadOS, you can fin
 **Table of contents for easy navigation**
 
 - [**Configuration Profiles**](#configuration-profiles)
-- [Creating a Configuration Profile in MEM](#creating-a-configuration-profile-in-MEM)
+- [Creating a Configuration Profile in MEM](#creating-a-configuration-profile-in-mem)
 
 - [**Compliance Policies**](#compliance-policies)
 - [**Apps**](#apps)

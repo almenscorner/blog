@@ -35,7 +35,7 @@ This is going to be a longer post so grab your coffee and let's get reading.
 - [**Prepare repository structure**](#prepare-repository-structure)
 - [**Create a package**](#create-a-package)
 - [**Upload repository to Azure Blob storage**](#upload-repository-to-azure-blob-storage)
-- [**Manage repository with Git - Optional**](#manage-repository-with-git)
+- [**Manage repository with Git - Optional**](#manage-repository-with-git-optional)
 - [**Deploy to macs**](#deploy-to-macs)
 
 - [**End user experience**](#end-user-experience)

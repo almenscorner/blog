@@ -11,7 +11,8 @@ tags:
 excerpt: Today we're setting up an Azure Logic App and configure authorization policies
   to require an OAuth token to send a message to a Teams channel
 ---
-In the last couple of posts where we have used Azure DevOps Pipelines to [add new packages for macOS]({{ site.baseurl }}) and [move them between catalogs]({{ site.baseurl }}), you were able to setup an incoming Teams webhook to get notified when something happens.
+In the last couple of posts where we have used Azure DevOps Pipelines to add new packages for macOS
+and move them between catalogs, you were able to setup an incoming Teams webhook to get notified when something happens.
 
 Not all organizations allow use of these webhooks though since anybody with the link can send a message to the channel without the need of authenticating. In this post we'll address this by setting up an Azure Logic App and configure authorization policies to require an OAuth token to send the message.
 
@@ -81,7 +82,7 @@ For **Adaptive Card**, copy and paste in the JSON below,
     
         "type": "AdaptiveCard",
       
-        "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+        "$schema": "https://adaptivecards.io/schemas/adaptive-card.json",
       
         "version": "1.2",
       

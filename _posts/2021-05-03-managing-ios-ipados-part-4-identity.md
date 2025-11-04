@@ -26,7 +26,7 @@ Table of contents
 
 - [**Managed Apple ID**](#managed-apple-id)
 - [Federated authentication](#federated-authentication)
-- [Integrate ABM with Azure AD](#integrate-abm-with-azure)
+- [Integrate ABM with Azure AD](#integrate-abm-with-azure-ad)
 - [Test authentication with a single Azure AD account](#test-authentication-with-a-single-azure-ad-account)
 - [Test federated authentication](#test-federated-authentication)
 
