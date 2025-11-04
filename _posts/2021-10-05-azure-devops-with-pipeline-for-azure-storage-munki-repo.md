@@ -18,7 +18,7 @@ I know I know, I've been on a Munki frency the last couple of weeks but it's a f
 
 When we explored how to integrate Munki with MEM, we also had a look at managing our repository with GitHub and actions to automatically upload files to Azure Storage. Today we're doing something similar but intstead of GitHub we'll use Azure DevOps and a Pipeline to automatically sync DevOps and Azure Storage.
 
-If you have not yet prepared a Storage Account with a Munki repo or don't know how to work with Munki admin, please read the initial post on how to [integrate Munki with MEM.]({{ site.baseurl }}integrate-munki-with-microsoft-endpoint-manager/)
+If you have not yet prepared a Storage Account with a Munki repo or don't know how to work with Munki admin, please read the initial post on how to [integrate Munki with MEM.]({% post_url 2021-08-25-integrate-munki-with-microsoft-endpoint-manager %})
 
 ## Pre-requisites
 
@@ -98,7 +98,7 @@ Great, now we have all pieces in place to create our repo with LFS. Next step is
 
 - Run command `git push origin HEAD:main`, now you will have to enter your email adress and the personal access token you copied earlier
 
-The repo is now prepared for adding packages, add a new package as desribed in the section **Create a package **in the initial [integrate Munki with MEM]({{ site.baseurl }}integrate-munki-with-microsoft-endpoint-manager/) post, then follow this process,
+The repo is now prepared for adding packages, add a new package as desribed in the section **Create a package **in the initial [integrate Munki with MEM]({% post_url 2021-08-25-integrate-munki-with-microsoft-endpoint-manager %}) post, then follow this process,
 
 1. Open terminal and cd to path/Munki
 2. Run command `git add --all`

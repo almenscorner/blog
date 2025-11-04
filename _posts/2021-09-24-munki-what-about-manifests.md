@@ -16,9 +16,9 @@ excerpt: So what Tobias, you want me to manually create a manifest for each devi
 ---
 ## NOTE
 
-This script is deprecated, please [check this]({{ site.baseurl }}munki-manifests-reboot/) post instead.
+This script is deprecated, please [check this]({% post_url 2022-09-30-munki-manifests-reboot %}) post instead.
 
-If you're using or testing Munki you probably know about manifests, most probably you don't want just one manifest to rule them all (site_default). It can be beneficial to assign packages to different departments or other groups in your organization. If you don't yet know what a manifest is, have a look at my [post about integrating Munki with MEM]({{ site.baseurl }}integrate-munki-with-microsoft-endpoint-manager/). This is kind of an extension of that post.
+If you're using or testing Munki you probably know about manifests, most probably you don't want just one manifest to rule them all (site_default). It can be beneficial to assign packages to different departments or other groups in your organization. If you don't yet know what a manifest is, have a look at my [post about integrating Munki with MEM]({% post_url 2021-08-25-integrate-munki-with-microsoft-endpoint-manager %}). This is kind of an extension of that post.
 
 So what Tobias, you want me to manually create a manifest for each device and add included manifests? Of course not, we're going to automate this task with the help of Azure Automation and Python.
 

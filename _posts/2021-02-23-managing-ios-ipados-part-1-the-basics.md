@@ -71,11 +71,11 @@ In iOS/iPadOS 13.4 or later, APNs can use a web proxy when it’s specified in
 
 ### Creating and uploading APNs in Microsoft Endpoint Manger
 
-To create an APNs certificate, the first thing you&#8217;ll need is an Apple ID. I strongly advise you not to use your own Apple ID as multiple people might need access to renew this certificate annually. If you need to create an Apple ID, you can do so [here](http://appleid.apple.com).
+To create an APNs certificate, the first thing you&#8217;ll need is an Apple ID. I strongly advise you not to use your own Apple ID as multiple people might need access to renew this certificate annually. If you need to create an Apple ID, you can do so [here](https://appleid.apple.com).
 
 Once you have a non-personal Apple ID, follow this process:
 
-1. Log in to the [MEM console](http://endpoint.microsoft.com)
+1. Log in to the [MEM console](https://endpoint.microsoft.com)
 2. Navigate to **Devices -> iOS/iPadOS -> iOS/iPadOS enrollment -> Apple MDM Push Certificate**
 3. Grant Microsoft permission to send user and device information to Apple
 4. Click on **Download your CSR** (keep the MEM console open, you will need it later)

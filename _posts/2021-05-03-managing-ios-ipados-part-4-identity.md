@@ -16,11 +16,11 @@ Welcome to part four of this series covering iOS/iPadOS management in Microsoft 
 
 You can find part one, two and three here:
 
-[Managing iOS/iPadOS Part 1: The basics]({{ site.baseurl }}managing-ios-ipados-part-1-the-basics/)
+[Managing iOS/iPadOS Part 1: The basics]({% post_url 2021-02-23-managing-ios-ipados-part-1-the-basics %})
 
-[Managing *i*OS/iPadOS Part 2: Deployment methods]({{ site.baseurl }}managing-ios-ipados-part-2-deployment-methods/)
+[Managing *i*OS/iPadOS Part 2: Deployment methods]({% post_url 2021-03-02-managing-ios-ipados-part-2-deployment-methods %})
 
-[Managing iOS/iPadOS Part 3: Configurations & Apps]({{ site.baseurl }}managing-ios-ipados-part-3/)
+[Managing iOS/iPadOS Part 3: Configurations & Apps]({% post_url 2021-03-29-managing-ios-ipados-part-3 %})
 
 Table of contents
 
@@ -58,7 +58,7 @@ Use the System for Cross-domain Identity Management (SCIM) to import users from 
 - 
 Create accounts manually
 
-If you've read [part two]({{ site.baseurl }}managing-ios-ipados-part-2-deployment-methods) of this series, you probably remember that we manually created managed Apple IDs to use for user enrollment. This is a valid method of creating IDs for your users but require administration from IT to create an ID, creating sign-in and sending a temporary password to the user. The user will then have to create a new password when they first sign into their ID and they will have yet another password to keep track of. A better method is to use federated authentication which we'll have a look at setting up below.
+If you've read [part two]({% post_url 2021-03-02-managing-ios-ipados-part-2-deployment-methods %}) of this series, you probably remember that we manually created managed Apple IDs to use for user enrollment. This is a valid method of creating IDs for your users but require administration from IT to create an ID, creating sign-in and sending a temporary password to the user. The user will then have to create a new password when they first sign into their ID and they will have yet another password to keep track of. A better method is to use federated authentication which we'll have a look at setting up below.
 
 ## Federated authentication
 
@@ -68,7 +68,7 @@ When an Apple ID is created with this integration, the user can sign into iCloud
 
 ### Integrate ABM with Azure AD
 
-To integrate ABM with Azure AD, you first must verify your domain. We cover how to do this in [part two]({{ site.baseurl }}managing-ios-ipados-part-2-deployment-methods).
+To integrate ABM with Azure AD, you first must verify your domain. We cover how to do this in [part two]({% post_url 2021-03-02-managing-ios-ipados-part-2-deployment-methods %}).
 
 1. Sign into [Apple Business Manger](https://business.apple.com)
 2. Click on **Settings -> Accounts**, and then **Edit** on **Domains**
@@ -139,7 +139,7 @@ Sign out of Apple Business Manager.
 
 # Single Sign-On App Extension
 
-Starting with iOS/iPadOS 13, Apple introduced something called Single Sign-on Extension. Alot has happened with Microsofts implementation since I first wrote a [blog post]({{ site.baseurl }}ios-azure-ad-sso-extension-a-blessing/) about it. Everything I wanted to see with it has become reality today, including support for Safari web SSO and OpenID Connect, OAuth and SAML. What this means is that we're able to provide a seamless experience for users on mobile when they access web or native applications connected to Azure AD.
+Starting with iOS/iPadOS 13, Apple introduced something called Single Sign-on Extension. Alot has happened with Microsofts implementation since I first wrote a [blog post]({% post_url 2020-04-15-ios-azure-ad-sso-extension-a-blessing %}) about it. Everything I wanted to see with it has become reality today, including support for Safari web SSO and OpenID Connect, OAuth and SAML. What this means is that we're able to provide a seamless experience for users on mobile when they access web or native applications connected to Azure AD.
 
 If you for example use Salesforce federated to Azure AD with SAML and you deploy an SSO Extension profile to iOS/iPadOS devices, the authentication flow would be:
 ![]({{ site.baseurl }}/assets/images/wordpress/2020/04/appsso-1024x216.png)

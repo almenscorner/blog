@@ -19,10 +19,10 @@ This was not meant to be a series from the beginning but has turned into one. We
 
 You can find links to the previous posts here:
 
-- [Deploy Munki with Microsoft Endpoint Manager]({{ site.baseurl }}integrate-munki-with-microsoft-endpoint-manager)
-- [Munki, what about manifests?]({{ site.baseurl }}munki-what-about-manifests)
-- [Azure DevOps with Pipeline for Azure Storage Munki repo]({{ site.baseurl }}azure-devops-with-pipeline-for-azure-storage-munki-repo)
-- [Automate app packaging, updating and distribution with Azure DevOps, AutoPkg and Munki]({{ site.baseurl }}automate-app-packaging-updating-and-distribution)
+- [Deploy Munki with Microsoft Endpoint Manager]({% post_url 2021-08-25-integrate-munki-with-microsoft-endpoint-manager %})
+- [Munki, what about manifests?]({% post_url 2021-09-24-munki-what-about-manifests %})
+- [Azure DevOps with Pipeline for Azure Storage Munki repo]({% post_url 2021-10-05-azure-devops-with-pipeline-for-azure-storage-munki-repo %})
+- [Automate app packaging, updating and distribution with Azure DevOps, AutoPkg and Munki]({% post_url 2021-10-19-automate-app-packaging-updating-and-distribution %})
 
 Again, this will be built using Azure DevOps and a pipeline. I recommend having a look at the previous posts if you are interested in this solution as we'll set everything up within the same project.
 

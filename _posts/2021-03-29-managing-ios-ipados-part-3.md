@@ -15,8 +15,8 @@ Today's topic is all about configuring our iOS/iPadOS devices, we'll have a look
 
 This is part three of this series covering management of iOS/iPadOS, you can find part one and two here:
 
-[Managing iOS/iPadOS Part 1: The basics]({{ site.baseurl }}managing-ios-ipados-part-1-the-basics/)
-[Managing iOS/iPadOS Part 2: Deployment methods]({{ site.baseurl }}managing-ios-ipados-part-2-deployment-methods/)
+[Managing iOS/iPadOS Part 1: The basics]({% post_url 2021-02-23-managing-ios-ipados-part-1-the-basics %})
+[Managing iOS/iPadOS Part 2: Deployment methods]({% post_url 2021-03-02-managing-ios-ipados-part-2-deployment-methods %})
 
 **Table of contents for easy navigation**
 
