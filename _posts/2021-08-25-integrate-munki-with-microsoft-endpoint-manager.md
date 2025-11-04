@@ -35,7 +35,7 @@ This is going to be a longer post so grab your coffee and let's get reading.
 - [**Prepare repository structure**](#prepare-repository-structure)
 - [**Create a package**](#create-a-package)
 - [**Upload repository to Azure Blob storage**](#upload-repository-to-azure-blob-storage)
-- [**Manage repository with Git - Optional**](#manage-repository-with-git-optional)
+- [**Manage repository with Git - Optional**](#manage-repository-with-git)
 - [**Deploy to macs**](#deploy-to-macs)
 
 - [**End user experience**](#end-user-experience)
@@ -223,7 +223,7 @@ To make it easy to upload everything, I used Azure Storage Explorer which you ca
 
 While this is a perfectly viable way of managing your repository it's not the most dynamic. Each time you create a new package you'd have to upload all files which have been modified like the package, manifest, pkgsinfo, icons and so on. Below we instead look at using Git to upload and commit changes done to the repository.
 ![]({{ site.baseurl }}/assets/images/2021/08/Screenshot-2021-08-25-at-09.55.33.png)
-## Manage repository with Git - Optional
+## Manage repository with Git
 
 Instead of manually uploading all changes to the repository we're going to implement a CI (Continuous Integration) flow where we do our changes to the repository locally using Munki Admin and then use Git to commit and push our changes. This way you can have a team working with the same repository and keep it updated. Other benefits include getting a history of who made changes and what changes were made, ability to roll back if a change brake anything. You can also configure different branches if you for example want to push new configurations to a dev branch before merging with main.
 
