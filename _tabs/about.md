@@ -14,3 +14,5 @@ Key areas:
 - Automation
 - Python
 - Swift
+
+![]({{ site.baseurl }}/assets/images/2023/08/MVP_Badge_Horizontal_Secondary_DarkBlue7694_RGB.png)

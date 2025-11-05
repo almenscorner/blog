@@ -1,8 +1,7 @@
 ---
-title: Privacy
-slug: privacy
-date_published: 2021-04-08 14:46:51.000000000 Z
-date_updated: 2021-04-08 14:46:51.000000000 Z
+# the default layout is 'page'
+icon: fas fa-lock
+order: 5
 ---
 With thanks to [Writers’ HQ](https://writershq.co.uk/), our supreme writing commanders, glorious leaders and excellent but tiny overlords, who have verily granted us permission to use their splendid and sweary Privacy Policy.
 
@@ -21,12 +20,6 @@ Look, I'm following you, ok? I use Google Analytics, primarily to stare at the r
 None of these things store any super personal data about you but probably they nab your IP address, not that I know where to look for it or what to do with it. All I see is that a person or many people have interacted with the website in a particular way. You can mess with me by doing something totally unexpected on the website and skewing our stats. Or you could do something way more fun and useful with your time LIKE WRITING.
 
 ## Data storage
-
-DATA!! It’s all about the data, baby. A literal fuck-tonne of petabytes whirring around the world and what? What’s it all for? WHAT DOES IT ALL MEAN? What will future historians actually see of us and our slowly collapsing society? So. I store your data in a few different places and use it in a couple of different ways. You ready for this?
-
-Here on this website! If you register with the site I will store your name and email address.
-
-**Typeform!** If you use the contact form on this website, your name and email address will be stored on Typeform.com. Why? because you wanted to get in contact and I need to know where to reach you... duh
 
 I’ll be honest: I do absolutely nothing unsurprising or radical with your info.
 
